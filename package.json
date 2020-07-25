@@ -1,0 +1,8 @@
+{
+    "name": "Verificador_de_Rut",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "khami",
+    "contributors": [],
+    "dependencies": {}
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verificador de Rut</title>
+        <meta charset="UTF-8">
+        <meta name="autor" content="Camilo Salas">
+        <link href="Style.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body{
+                background-image: url("torres del paine.jpg")
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1 id="Titulo">Verifica tu rut</h1>
+        <form id="Formulario">
+        <input type="text" id="rut" name="rut" required oninput="checkRut(this)" placeholder="Ingrese RUT">
+        <button type="submit">Enviar Formulario</button>
+        <script src="validar.js"></script>
+        </form>
+    </body>
+</html>
